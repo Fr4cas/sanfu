@@ -1,8 +1,12 @@
+import '../styles/Navbar.css'
 
-function Nav() {
+function Navbar() {
     return (
         <header>
             <nav className="header__nav">
+                <div className="header__logo">
+                    <h4>logo</h4>
+                </div>
                 <ul className="header__menu">
                     <li>
                         <a href="#">Add</a>
@@ -16,4 +20,4 @@ function Nav() {
     )
 }
 
-export default Nav
+export default Navbar

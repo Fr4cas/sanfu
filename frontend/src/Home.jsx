@@ -1,11 +1,11 @@
 import './styles/globals.css'
-import Nav from './components/Nav.jsx'
+import Navbar from './components/Navbar.jsx'
 
 function Home() {
 
   return (
     <>
-      <Nav />
+      <Navbar />
       <h1>Sanfu Data</h1>
     </>
   )
