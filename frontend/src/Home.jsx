@@ -1,12 +1,14 @@
 import './styles/globals.css'
+import Nav from './components/Nav.jsx'
 
-function App() {
+function Home() {
 
   return (
     <>
+      <Nav />
       <h1>Sanfu Data</h1>
     </>
   )
 }
 
-export default App
+export default Home
