@@ -9,10 +9,10 @@ function Navbar() {
                 </div>
                 <ul className="header__menu">
                     <li>
-                        <a href="#">Add</a>
+                        <a href="/add">Add</a>
                     </li>
                     <li>
-                        <a href="#">View</a>
+                        <a href="/view">View</a>
                     </li>
                 </ul>
             </nav>
