@@ -1,9 +1,9 @@
-import Navbar from '../components/Navbar.jsx'
+import HeaderBar from '../components/HeaderBar.jsx'
 
 function HomePage() {
     return (
         <>
-            <Navbar />
+            <HeaderBar />
             <h1>Sanfu Data</h1>
             <h2 className="bg-red-500 text-3xl font-bold text-black">Tailwind is working </h2>
         </>
